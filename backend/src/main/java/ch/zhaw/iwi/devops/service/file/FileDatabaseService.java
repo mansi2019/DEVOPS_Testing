@@ -6,7 +6,6 @@ import javax.persistence.criteria.Order;
 import javax.persistence.criteria.Root;
 
 import ch.zhaw.iwi.devops.model.file.File;
-import ch.zhaw.iwi.devops.model.file.File_;
 import ch.zhaw.iwi.devops.service.AbstractCrudDatabaseService;
 import ch.zhaw.iwi.devops.service.PathListEntry;
 
