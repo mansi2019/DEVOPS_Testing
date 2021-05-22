@@ -25,7 +25,12 @@ public class PrimeCheckerTest {
     public void PrimeCheckerRandom() {
 
         PrimeChecker primeChecker = new PrimeChecker();
-        int random_int = (int)Math.floor(Math.random()*2);  //jede Zahl multipliziert mit 2 sollte keine Primzahl ergeben
+        
+        int max = 200;
+        int min = 3;
+        int range = (max - min) + 1;
+        int random_int = (int)Math.floor(Math.random()*range)*2;  //jede Zahl multipliziert mit 2 sollte keine Primzahl ergeben
+        System.out.println(random_int);
         Assert.assertEquals(false, primeChecker.checker(random_int));
     }
     
