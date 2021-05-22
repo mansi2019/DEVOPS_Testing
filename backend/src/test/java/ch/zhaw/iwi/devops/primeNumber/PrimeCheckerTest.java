@@ -18,7 +18,7 @@ public class PrimeCheckerTest {
     public void PrimeChecker3() {
 
         PrimeChecker primeChecker = new PrimeChecker();
-        Assert.assertEquals(true, primeChecker.checker(3));
+        Assert.assertTrue(primeChecker.checker(3));
     }
 
     @Test
